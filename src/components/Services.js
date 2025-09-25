@@ -112,20 +112,7 @@ const Services = () => {
           ))}
         </motion.div>
 
-        <motion.div 
-          className="services-cta"
-          variants={itemVariants}
-        >
-          <h3>Precisa de algo específico?</h3>
-          <p>Entre em contato conosco para serviços personalizados</p>
-          <motion.button 
-            className="cta-button"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            Fale Conosco
-          </motion.button>
-        </motion.div>
+      
       </motion.div>
     </section>
   );

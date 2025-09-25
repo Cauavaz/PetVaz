@@ -137,6 +137,18 @@ img {
   background: transparent;
   color: #f56565;
   border: 2px solid #f56565;
+  color: white;
+  transform: translateY(-2px);
+  background: #f56565;
+  color: white;
+  border: none;
+  padding: 0.75rem 0.5rem;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s 
+ease;
+  width: 63%;
 }
 
 .btn-secondary:hover {

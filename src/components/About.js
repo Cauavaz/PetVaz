@@ -30,18 +30,17 @@ const About = () => {
             
             <h3>Por que nos escolher?</h3>
             <ul className="benefits-list">
-              <li>✓ Profissionais certificados e experientes</li>
-              <li>✓ Ambiente seguro e acolhedor</li>
-              <li>✓ Equipamentos modernos e seguros</li>
-              <li>✓ Atendimento personalizado para cada pet</li>
-              <li>✓ Preços justos e transparentes</li>
+              <li>Profissionais certificados e experientes</li>
+              <li>Ambiente seguro e acolhedor</li>
+              <li>Equipamentos modernos e seguros</li>
+              <li>Atendimento personalizado para cada pet</li>
+              <li>Preços justos e transparentes</li>
             </ul>
           </div>
 
           <div className="about-image">
             <div className="image-placeholder">
-              <span className="placeholder-icon" role="img" aria-label="dog">🐕</span>
-              <p>Imagem dos nossos profissionais cuidando dos pets</p>
+              
             </div>
           </div>
         </div>

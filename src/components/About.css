@@ -1,8 +1,26 @@
 .about {
-  padding: 6rem 0;
-  background: #f7fafc;
-}
-
+    position: relative;
+    padding: 6rem 0;
+    background: #f7fafc;
+    overflow: hidden; /* evita que a img saia da área */
+  }
+  
+  .about::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url('/src/img/blob-scene-haikei (4).svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: scaleX(-1); /* inverte horizontalmente */
+    z-index: 0;
+  }
+  
+  .about > * {
+    position: relative;
+    z-index: 1; /* garante que o conteúdo fique por cima */
+  }
 .about-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -78,8 +96,11 @@
 
 .image-placeholder {
   width: 100%;
+  background-image: url('/src/img/dog.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   height: 400px;
-  background: linear-gradient(135deg, #e2e8f0 0%, #cbd5e0 100%);
   border-radius: 20px;
   display: flex;
   flex-direction: column;

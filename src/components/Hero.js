@@ -21,9 +21,7 @@ const Hero = () => {
             com amor, carinho e profissionalismo que eles merecem.
           </p>
           <div className="hero-buttons">
-            <button onClick={() => scrollToSection('services')} className="btn-primary">
-              Nossos Serviços
-            </button>
+    
             <button onClick={() => scrollToSection('contact')} className="btn-secondary">
               Entre em Contato
             </button>
